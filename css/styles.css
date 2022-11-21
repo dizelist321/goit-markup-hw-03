@@ -202,11 +202,12 @@ header .container {
 
 
 /* ---------ABOUT----------- */
-
+.about {
+    margin-top: -94px;
+}
 .title-about {
     color: var(--primary-header-color);
     margin-bottom: 50px;
-    margin-top: 94px;
 }
 .about-list {
     display: flex;
