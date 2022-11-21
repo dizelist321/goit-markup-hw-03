@@ -238,6 +238,10 @@ header .container {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+.team-items {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -246,7 +250,6 @@ header .container {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-header-color);
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 .team-text {
@@ -364,7 +367,7 @@ header .container {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
-    margin-bottom: 30px;
+    margin-bottom: -30px;
     justify-content: space-between;
 }
 .portfolio-link {
@@ -377,8 +380,7 @@ header .container {
 
 }
 .portfolio-items {
-    padding-top: 20px;
-    padding-bottom: 20px;
+   padding: 20px 24px;
 }
 .portfolio-title {
     font-weight: 700;
@@ -387,7 +389,6 @@ header .container {
 /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: var(--primary-header-color);
-    padding-left: 24px;
 }
 .portfolio-text {
     font-weight: 400;
@@ -396,7 +397,6 @@ header .container {
 /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    padding-left: 24px;
     margin-top: 4px;
 }
 
